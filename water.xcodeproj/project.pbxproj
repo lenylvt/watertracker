@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B365D6222C4D68DF005AE0A7 /* waterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D6212C4D68DF005AE0A7 /* waterApp.swift */; };
+		B365D6242C4D68DF005AE0A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D6232C4D68DF005AE0A7 /* ContentView.swift */; };
+		B365D6262C4D68E0005AE0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B365D6252C4D68E0005AE0A7 /* Assets.xcassets */; };
+		B365D6292C4D68E0005AE0A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B365D6282C4D68E0005AE0A7 /* Preview Assets.xcassets */; };
+		B365D6332C4D68E0005AE0A7 /* waterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D6322C4D68E0005AE0A7 /* waterTests.swift */; };
+		B365D63D2C4D68E0005AE0A7 /* waterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D63C2C4D68E0005AE0A7 /* waterUITests.swift */; };
+		B365D63F2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D63E2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B365D62F2C4D68E0005AE0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B365D6162C4D68DF005AE0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B365D61D2C4D68DF005AE0A7;
+			remoteInfo = water;
+		};
+		B365D6392C4D68E0005AE0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B365D6162C4D68DF005AE0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B365D61D2C4D68DF005AE0A7;
+			remoteInfo = water;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B365D61E2C4D68DF005AE0A7 /* water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = water.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365D6212C4D68DF005AE0A7 /* waterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterApp.swift; sourceTree = "<group>"; };
+		B365D6232C4D68DF005AE0A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B365D6252C4D68E0005AE0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B365D6282C4D68E0005AE0A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B365D62E2C4D68E0005AE0A7 /* waterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365D6322C4D68E0005AE0A7 /* waterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterTests.swift; sourceTree = "<group>"; };
+		B365D6382C4D68E0005AE0A7 /* waterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365D63C2C4D68E0005AE0A7 /* waterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterUITests.swift; sourceTree = "<group>"; };
+		B365D63E2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B365D61B2C4D68DF005AE0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D62B2C4D68E0005AE0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D6352C4D68E0005AE0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B365D6152C4D68DF005AE0A7 = {
+			isa = PBXGroup;
+			children = (
+				B365D6202C4D68DF005AE0A7 /* water */,
+				B365D6312C4D68E0005AE0A7 /* waterTests */,
+				B365D63B2C4D68E0005AE0A7 /* waterUITests */,
+				B365D61F2C4D68DF005AE0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B365D61F2C4D68DF005AE0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B365D61E2C4D68DF005AE0A7 /* water.app */,
+				B365D62E2C4D68E0005AE0A7 /* waterTests.xctest */,
+				B365D6382C4D68E0005AE0A7 /* waterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B365D6202C4D68DF005AE0A7 /* water */ = {
+			isa = PBXGroup;
+			children = (
+				B365D6212C4D68DF005AE0A7 /* waterApp.swift */,
+				B365D6232C4D68DF005AE0A7 /* ContentView.swift */,
+				B365D6252C4D68E0005AE0A7 /* Assets.xcassets */,
+				B365D6272C4D68E0005AE0A7 /* Preview Content */,
+			);
+			path = water;
+			sourceTree = "<group>";
+		};
+		B365D6272C4D68E0005AE0A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B365D6282C4D68E0005AE0A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B365D6312C4D68E0005AE0A7 /* waterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B365D6322C4D68E0005AE0A7 /* waterTests.swift */,
+			);
+			path = waterTests;
+			sourceTree = "<group>";
+		};
+		B365D63B2C4D68E0005AE0A7 /* waterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B365D63C2C4D68E0005AE0A7 /* waterUITests.swift */,
+				B365D63E2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift */,
+			);
+			path = waterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B365D61D2C4D68DF005AE0A7 /* water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B365D6422C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "water" */;
+			buildPhases = (
+				B365D61A2C4D68DF005AE0A7 /* Sources */,
+				B365D61B2C4D68DF005AE0A7 /* Frameworks */,
+				B365D61C2C4D68DF005AE0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = water;
+			productName = water;
+			productReference = B365D61E2C4D68DF005AE0A7 /* water.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B365D62D2C4D68E0005AE0A7 /* waterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B365D6452C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "waterTests" */;
+			buildPhases = (
+				B365D62A2C4D68E0005AE0A7 /* Sources */,
+				B365D62B2C4D68E0005AE0A7 /* Frameworks */,
+				B365D62C2C4D68E0005AE0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B365D6302C4D68E0005AE0A7 /* PBXTargetDependency */,
+			);
+			name = waterTests;
+			productName = waterTests;
+			productReference = B365D62E2C4D68E0005AE0A7 /* waterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B365D6372C4D68E0005AE0A7 /* waterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B365D6482C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "waterUITests" */;
+			buildPhases = (
+				B365D6342C4D68E0005AE0A7 /* Sources */,
+				B365D6352C4D68E0005AE0A7 /* Frameworks */,
+				B365D6362C4D68E0005AE0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B365D63A2C4D68E0005AE0A7 /* PBXTargetDependency */,
+			);
+			name = waterUITests;
+			productName = waterUITests;
+			productReference = B365D6382C4D68E0005AE0A7 /* waterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B365D6162C4D68DF005AE0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B365D61D2C4D68DF005AE0A7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B365D62D2C4D68E0005AE0A7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B365D61D2C4D68DF005AE0A7;
+					};
+					B365D6372C4D68E0005AE0A7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B365D61D2C4D68DF005AE0A7;
+					};
+				};
+			};
+			buildConfigurationList = B365D6192C4D68DF005AE0A7 /* Build configuration list for PBXProject "water" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B365D6152C4D68DF005AE0A7;
+			productRefGroup = B365D61F2C4D68DF005AE0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B365D61D2C4D68DF005AE0A7 /* water */,
+				B365D62D2C4D68E0005AE0A7 /* waterTests */,
+				B365D6372C4D68E0005AE0A7 /* waterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B365D61C2C4D68DF005AE0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365D6292C4D68E0005AE0A7 /* Preview Assets.xcassets in Resources */,
+				B365D6262C4D68E0005AE0A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D62C2C4D68E0005AE0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D6362C4D68E0005AE0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B365D61A2C4D68DF005AE0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365D6242C4D68DF005AE0A7 /* ContentView.swift in Sources */,
+				B365D6222C4D68DF005AE0A7 /* waterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D62A2C4D68E0005AE0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365D6332C4D68E0005AE0A7 /* waterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365D6342C4D68E0005AE0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365D63F2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift in Sources */,
+				B365D63D2C4D68E0005AE0A7 /* waterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B365D6302C4D68E0005AE0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B365D61D2C4D68DF005AE0A7 /* water */;
+			targetProxy = B365D62F2C4D68E0005AE0A7 /* PBXContainerItemProxy */;
+		};
+		B365D63A2C4D68E0005AE0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B365D61D2C4D68DF005AE0A7 /* water */;
+			targetProxy = B365D6392C4D68E0005AE0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B365D6402C4D68E0005AE0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B365D6412C4D68E0005AE0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B365D6432C4D68E0005AE0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"water/Preview Content\"";
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B365D6442C4D68E0005AE0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"water/Preview Content\"";
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B365D6462C4D68E0005AE0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.waterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water";
+			};
+			name = Debug;
+		};
+		B365D6472C4D68E0005AE0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.waterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water";
+			};
+			name = Release;
+		};
+		B365D6492C4D68E0005AE0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.waterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = water;
+			};
+			name = Debug;
+		};
+		B365D64A2C4D68E0005AE0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL4Y78QH78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifes.waterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = water;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B365D6192C4D68DF005AE0A7 /* Build configuration list for PBXProject "water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365D6402C4D68E0005AE0A7 /* Debug */,
+				B365D6412C4D68E0005AE0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B365D6422C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365D6432C4D68E0005AE0A7 /* Debug */,
+				B365D6442C4D68E0005AE0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B365D6452C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "waterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365D6462C4D68E0005AE0A7 /* Debug */,
+				B365D6472C4D68E0005AE0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B365D6482C4D68E0005AE0A7 /* Build configuration list for PBXNativeTarget "waterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365D6492C4D68E0005AE0A7 /* Debug */,
+				B365D64A2C4D68E0005AE0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B365D6162C4D68DF005AE0A7 /* Project object */;
+}
