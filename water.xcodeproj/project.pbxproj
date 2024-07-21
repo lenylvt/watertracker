@@ -14,6 +14,9 @@
 		B365D6332C4D68E0005AE0A7 /* waterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D6322C4D68E0005AE0A7 /* waterTests.swift */; };
 		B365D63D2C4D68E0005AE0A7 /* waterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D63C2C4D68E0005AE0A7 /* waterUITests.swift */; };
 		B365D63F2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D63E2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift */; };
+		B3B75CE32C4D9A550059573C /* CustomVolumeAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B75CE22C4D9A500059573C /* CustomVolumeAddView.swift */; };
+		B3B75CE52C4D9A800059573C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B75CE42C4D9A800059573C /* SettingsView.swift */; };
+		B3B75CE72C4D9ABD0059573C /* WaterTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B75CE62C4D9ABD0059573C /* WaterTrackerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B3B75CFD2C4D9DF60059573C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B75D102C4D9EF80059573C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B365D61E2C4D68DF005AE0A7 /* water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = water.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B365D6212C4D68DF005AE0A7 /* waterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterApp.swift; sourceTree = "<group>"; };
@@ -44,6 +70,10 @@
 		B365D6382C4D68E0005AE0A7 /* waterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B365D63C2C4D68E0005AE0A7 /* waterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterUITests.swift; sourceTree = "<group>"; };
 		B365D63E2C4D68E0005AE0A7 /* waterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3B75CE22C4D9A500059573C /* CustomVolumeAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVolumeAddView.swift; sourceTree = "<group>"; };
+		B3B75CE42C4D9A800059573C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B3B75CE62C4D9ABD0059573C /* WaterTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerModel.swift; sourceTree = "<group>"; };
+		B3B75D242C4DA1A80059573C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +124,14 @@
 		B365D6202C4D68DF005AE0A7 /* water */ = {
 			isa = PBXGroup;
 			children = (
+				B3B75D242C4DA1A80059573C /* Info.plist */,
 				B365D6212C4D68DF005AE0A7 /* waterApp.swift */,
 				B365D6232C4D68DF005AE0A7 /* ContentView.swift */,
+				B3B75CE22C4D9A500059573C /* CustomVolumeAddView.swift */,
+				B3B75CE42C4D9A800059573C /* SettingsView.swift */,
 				B365D6252C4D68E0005AE0A7 /* Assets.xcassets */,
 				B365D6272C4D68E0005AE0A7 /* Preview Content */,
+				B3B75CE62C4D9ABD0059573C /* WaterTrackerModel.swift */,
 			);
 			path = water;
 			sourceTree = "<group>";
@@ -137,6 +171,8 @@
 				B365D61A2C4D68DF005AE0A7 /* Sources */,
 				B365D61B2C4D68DF005AE0A7 /* Frameworks */,
 				B365D61C2C4D68DF005AE0A7 /* Resources */,
+				B3B75CFD2C4D9DF60059573C /* Embed Watch Content */,
+				B3B75D102C4D9EF80059573C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B365D6242C4D68DF005AE0A7 /* ContentView.swift in Sources */,
+				B3B75CE52C4D9A800059573C /* SettingsView.swift in Sources */,
+				B3B75CE72C4D9ABD0059573C /* WaterTrackerModel.swift in Sources */,
 				B365D6222C4D68DF005AE0A7 /* waterApp.swift in Sources */,
+				B3B75CE32C4D9A550059573C /* CustomVolumeAddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +464,7 @@
 				DEVELOPMENT_TEAM = DL4Y78QH78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = water/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +494,7 @@
 				DEVELOPMENT_TEAM = DL4Y78QH78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = water/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
